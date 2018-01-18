@@ -7,16 +7,16 @@ h1 {
     /* margin-left: 20px; */
 }
 
-div {
+.bio {
     background-color: lightblue;
-    width: auto;
+    width: 100%;
     /* border: 25px solid green; */
-    padding: 25px 0px; 
-    margin-bottom:10px;
+    padding: 25px 5px; 
+    margin:10px 0px;
     /* margin: 25px; */
 }
 
-a:link, a:visited {
+/*a:link, a:visited {
     background-color: #f44336;
     color: white;
     padding: 14px 25px;
@@ -27,8 +27,41 @@ a:link, a:visited {
 
 a:hover, a:active {
     background-color: red;
+}*/
+
+.current{
+	background-color: green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
 }
 
-#img{
-	
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	background-color: #f44336;
+	/*position: fixed;
+	top 0;*/
+	width: 100%;
+	border: 1px solid #e7e7e7;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+li a :hover{
+	background-color: red; 
 }
